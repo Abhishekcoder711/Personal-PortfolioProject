@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Personal portfolio</title>
+   <style>
+      * {
+         margin: 0;
+         padding: 0;
+         font-family: sans-serif;
+      }
+
+      .header {
+         width: 100%;
+         height: 100vh;
+         background-color: rgb(249, 245, 237);
+      }
+
+      nav {
+         display: flex;
+         margin: auto;
+         width: 85%;
+         padding: 20px;
+         align-items: last baseline;
+         justify-content: space-between;
+         font-weight: bolder;
+         font-size: xx-large;
+         font-style: oblique;
+         color: rgb(107, 62, 57)
+      }
+
+      nav ul li {
+         display: inline-block;
+         list-style: none;
+         margin: 10px;
+         font-size: medium;
+
+      }
+
+      nav ul li a {
+         text-decoration: none;
+         color: black;
+      }
+
+      nav ul li a:hover {
+         background-color: seagreen;
+         border-radius: 2px;
+         color: white;
+      }
+
+      .button-rs,
+      .button-gfc {
+         display: inline-block;
+         margin-left: 0%;
+         border-radius: 5px;
+         transition: background-color 0.5s;
+         background: black;
+         padding: 10px;
+         text-decoration: none;
+         font-weight: bold;
+         color: white;
+         border: none;
+         cursor: pointer;
+      }
+
+      .button-rs:hover {
+         background-color: white;
+         color: black;
+      }
+
+      .button-gfc {
+         background: lightsalmon;
+      }
+
+      .button-gfc:hover {
+         background-color: white;
+         color: black;
+      }
+
+      .body {
+         margin-left: 100px;
+         margin-top: 100px;
+      }
+
+      .body h1 {
+         font-size: 35px;
+         color: black;
+         margin-bottom: 30px;
+      }
+
+      .demo1 {
+         color: orange;
+         margin-bottom: 30px;
+      }
+
+      .demo2 {
+         color: black;
+         line-height: 20px;
+         font-weight: bolder;
+         font-size: larger;
+      }
+
+      .button-lrn,
+      .button-hire {
+         background: lightsalmon;
+         padding: 10px 12px;
+         text-decoration: none;
+         font-weight: bold;
+         color: whitesmoke;
+         display: inline-block;
+         margin: 30px 8px;
+         border-radius: 5px;
+         transition: background-color 0.3s;
+         border: none;
+         letter-spacing: 1px;
+         cursor: pointer;
+      }
+
+      .button-lrn:hover {
+         background-color: whitesmoke;
+         color: black;
+      }
+
+      .button-hire {
+         background: black;
+      }
+
+      .button-hire:hover {
+         background-color: seagreen;
+      }
+
+      span {
+         color: seagreen;
+      }
+
+      .container {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+      }
+
+      .body {
+         flex: 1;
+      }
+
+      .profile-image {
+         width: 280px;
+         height: 280px;
+         border-radius: 50%;
+         margin-right: 100px;
+         margin-top: 50px;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="header">
+      <nav>
+         <a>☬ABHISHEK☬</a>
+         <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><button type="button" class="button-rs">RESUME</button></li>
+         </ul>
+      </nav>
+      <div class="container">
+         <div class="body">
+            <h1>Hello! <br> I'm Abhishek Kumar Mishra.</h1>
+            <p class="demo2">A Software Developer</p>
+            <button type="button" class="button-lrn">LEARN MORE</button>
+            <button type="button" class="button-hire">HIRE ME</button>
+         </div>
+         <img src="IMG_20240520_185150.jpg" alt="Abhishek Kumar Mishra" class="profile-image">
+      </div>
+
+
+</body>
+
+</html>
